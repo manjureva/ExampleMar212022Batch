@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-10T12:11:05 IST" name="Default suite" finished-at="2022-06-10T12:11:54 IST" duration-ms="49294">
+    <groups>
+    </groups>
+    <test started-at="2022-06-10T12:11:05 IST" name="Default test" finished-at="2022-06-10T12:11:54 IST" duration-ms="49294">
+      <class name="com.sgtesting.tests.Assignment6">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.Assignment6@383bfa16]" started-at="2022-06-10T12:11:05 IST" name="launchBrowser" finished-at="2022-06-10T12:11:09 IST" duration-ms="3930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.tests.Assignment6@383bfa16]" started-at="2022-06-10T12:11:09 IST" name="navigate" finished-at="2022-06-10T12:11:17 IST" duration-ms="8128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.tests.Assignment6@383bfa16]" started-at="2022-06-10T12:11:17 IST" name="login" data-provider="logindetails" finished-at="2022-06-10T12:11:21 IST" duration-ms="3316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyout()[pri:4, instance:com.sgtesting.tests.Assignment6@383bfa16]" started-at="2022-06-10T12:11:21 IST" name="minimizeFlyout" finished-at="2022-06-10T12:11:25 IST" duration-ms="4398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyout -->
+        <test-method signature="createCustomer(java.lang.String)[pri:5, instance:com.sgtesting.tests.Assignment6@383bfa16]" started-at="2022-06-10T12:11:25 IST" name="createCustomer" data-provider="customerDetails" finished-at="2022-06-10T12:11:31 IST" duration-ms="6401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[darshan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="CreateProject(java.lang.String)[pri:6, instance:com.sgtesting.tests.Assignment6@383bfa16]" started-at="2022-06-10T12:11:31 IST" name="CreateProject" data-provider="createProject" finished-at="2022-06-10T12:11:36 IST" duration-ms="4418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProject -->
+        <test-method signature="ModifyProject(java.lang.String)[pri:7, instance:com.sgtesting.tests.Assignment6@383bfa16]" started-at="2022-06-10T12:11:36 IST" name="ModifyProject" data-provider="modifyProject" finished-at="2022-06-10T12:11:39 IST" duration-ms="3427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java test cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyProject -->
+        <test-method signature="DeleteProject()[pri:8, instance:com.sgtesting.tests.Assignment6@383bfa16]" started-at="2022-06-10T12:11:39 IST" name="DeleteProject" finished-at="2022-06-10T12:11:44 IST" duration-ms="4464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProject -->
+        <test-method signature="DeleteCustomer()[pri:9, instance:com.sgtesting.tests.Assignment6@383bfa16]" started-at="2022-06-10T12:11:44 IST" name="DeleteCustomer" finished-at="2022-06-10T12:11:52 IST" duration-ms="8468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer -->
+        <test-method signature="logout()[pri:10, instance:com.sgtesting.tests.Assignment6@383bfa16]" started-at="2022-06-10T12:11:52 IST" name="logout" finished-at="2022-06-10T12:11:54 IST" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApplication()[pri:11, instance:com.sgtesting.tests.Assignment6@383bfa16]" started-at="2022-06-10T12:11:54 IST" name="closeApplication" finished-at="2022-06-10T12:11:54 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.Assignment6 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
